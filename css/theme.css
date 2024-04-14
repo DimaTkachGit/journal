@@ -12,9 +12,9 @@
     margin-left: 280px;
 }
 
-/*
+/* ************
     Sidebar
-*/
+* ************/
 
 .sidebar {
     position: fixed;
@@ -61,17 +61,34 @@
     border-color: #eff1f6;
 }
 
-.sidebar-nav {
-
+.sidebar-link .icon {
+    font-size: 20px;
+    transition: color .3s;
 }
 
-/*
+.sidebar-link:hover .icon[name="logo-nodejs"] {
+    color: #87be01;
+}
+
+.sidebar-link:hover .icon[name="logo-html5"] {
+    color: #eb7330;
+}
+
+.sidebar-link:hover .icon[name="logo-react"] {
+    color: #01d6f7;
+}
+
+.sidebar-link:hover .icon[name="server-outline"] {
+    color: #006ec0;
+}
+
+/* ***************
     Header item
-*/
-.header-item {
+* ***************/
+.header {
     display: flex;
     justify-content: space-between;
-    position: absolute;
+    position: fixed;
     z-index: 9;
     background-color: var(--white-color);
     width: 100%;
@@ -113,7 +130,7 @@
 }
 
 .heading-sm {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .heading-md{
@@ -133,6 +150,7 @@
     border: 1px solid var(--light-color);
     border-radius: 8px;
     box-shadow: 0 1px 3px rgba(20, 20, 43, .09);
+    overflow: hidden;
 }
 
 /*
@@ -177,5 +195,41 @@
 
 .input-item-holder.icon-inside-left .icon {
     left: 15px;
+}
+
+/* **************
+    Input item
+* ***************/
+
+.tech-card .icon[name="logo-nodejs"] {
+    color: #87be01;
+}
+
+.tech-card .icon[name="logo-javascript"] {
+    color: #f6ab47;
+}
+
+.tech-card .icon[name="logo-html5"] {
+    color: #eb7330;
+}
+
+.tech-card .icon {
+    font-size: 40px;
+}
+
+.tech-card p {
+    color: var(--grey-color);
+}
+
+.tech-card .icon {
+    font-size: 80px;
+}
+
+.tech-card-bg {
+    position: absolute;
+    top: -25px;
+    right: -65px;
+    color: #f7f8fc;
+    font-size: 170px;
 }
 
