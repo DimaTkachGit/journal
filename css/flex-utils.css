@@ -1,0 +1,47 @@
+/* Custom flex utils */
+.flex {
+    display: flex;
+}
+
+.flex.align-center {
+    align-items: center;
+}
+
+.flex.align-start {
+    align-items: flex-start;
+}
+
+.flex.align-end {
+    align-items: flex-end;
+}
+
+.flex-vertical {
+    flex-direction: column;
+    display: flex;
+}
+
+.flex-vertical.align-center {
+    align-items: center;
+}
+
+.flex-horizontal {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.flex-horizontal.children-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-horizontal.align-start {
+    align-items: flex-start;
+}
+
+.flex-horizontal.justify-start {
+    justify-content: flex-start;
+}
+
+.flex-horizontal.justify-end {
+    justify-content: flex-end;
+}
