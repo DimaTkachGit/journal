@@ -79,6 +79,7 @@ h6 {
 }
 
 p {
+    margin-top: 0;
     margin-bottom: 16px;
 }
 
@@ -143,34 +144,6 @@ figure {
 figcaption {
     text-align: center;
     margin-top: 16px;
-}
-
-.text-primary {
-    color: var(--primary-color);
-}
-
-.text-primary-dark {
-    color: var(--primary-dark-color);
-}
-
-.text-seconadary {
-    color: var(--secondary-color);
-}
-
-.text-white {
-    color: var(--white-color);
-}
-
-.text-dark {
-    color: var(--dark-color);
-}
-
-.text-light {
-    color: var(--light-color);
-}
-
-.text-grey {
-    color: var(--grey-color);
 }
 
 

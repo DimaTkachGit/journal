@@ -1,3 +1,31 @@
+.text-primary {
+    color: var(--primary-color);
+}
+
+.text-primary-dark {
+    color: var(--primary-dark-color);
+}
+
+.text-seconadary {
+    color: var(--secondary-color);
+}
+
+.text-white {
+    color: var(--white-color);
+}
+
+.text-dark {
+    color: var(--dark-color);
+}
+
+.text-light {
+    color: var(--light-color);
+}
+
+.text-grey {
+    color: var(--grey-color);
+}
+
 .font-weight-light {
     font-weight: 300 !important;
 }

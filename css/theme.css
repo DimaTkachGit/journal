@@ -1,11 +1,12 @@
 /*
-    Software bootcamp journal css
-    @ Author Dmytro Tkach
+*    Title: software development journal theme styles
+*    Author: Dmytro Tkach
+*    Date: April 2024
 */
 
-/*
+/* *******
     Main
-*/
+* ********/
 .main {
     padding-top: 70px;
     width: calc(100% - 280px);
@@ -55,15 +56,21 @@
     display: flex;
 }
 
-.sidebar-link:hover {
+.sidebar-link:hover,
+.sidebar-link.active {
     color: #828aa3;
-    background-color: #fff;
+    background-color: #f7f8fc;
     border-color: #eff1f6;
 }
 
 .sidebar-link .icon {
     font-size: 20px;
     transition: color .3s;
+}
+
+.sidebar-link:hover .icon[name="home-outline"],
+.sidebar-link.active .icon[name="home-outline"] {
+    color: var(--primary-color);
 }
 
 .sidebar-link:hover .icon[name="logo-nodejs"] {
@@ -97,9 +104,9 @@
 }
 
 
-/*
+/* **************
     Avatar item
-*/
+* ***************/
 .avatar-circle-item {
     width: 40px;
     height: 40px;
@@ -126,7 +133,7 @@
 */
 .heading {
     font-weight: 600;
-    margin-bottom: 24px;
+    margin-bottom: 15px;
 }
 
 .heading-sm {
@@ -200,6 +207,9 @@
 /* **************
     Input item
 * ***************/
+.tech-card {
+    margin-bottom: 30px;
+} 
 
 .tech-card .icon[name="logo-nodejs"] {
     color: #87be01;
@@ -211,6 +221,18 @@
 
 .tech-card .icon[name="logo-html5"] {
     color: #eb7330;
+}
+
+.tech-card .icon[name="logo-css3"] {
+    color: #254add;
+}
+
+.tech-card .icon[name="logo-react"] {
+    color: #00d1f7;
+}
+
+.tech-card .icon[name="logo-javascript"] {
+    color: #efd81d;
 }
 
 .tech-card .icon {
@@ -231,5 +253,18 @@
     right: -65px;
     color: #f7f8fc;
     font-size: 170px;
+}
+
+/* ************************
+    Link with arrow item
+* ************************/
+.link-arrow-item {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.link-arrow-item .icon {
+    color: var(--primary-color);
 }
 
