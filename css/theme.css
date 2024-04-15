@@ -11,6 +11,7 @@
     padding-top: 70px;
     width: calc(100% - 280px);
     margin-left: 280px;
+    overflow: hidden;
 }
 
 /* ************
@@ -73,19 +74,23 @@
     color: var(--primary-color);
 }
 
-.sidebar-link:hover .icon[name="logo-nodejs"] {
+.sidebar-link:hover .icon[name="logo-nodejs"],
+.sidebar-link:active .icon[name="logo-nodejs"] {
     color: #87be01;
 }
 
-.sidebar-link:hover .icon[name="logo-html5"] {
+.sidebar-link:hover .icon[name="logo-html5"],
+.sidebar-link:active .icon[name="logo-html5"] {
     color: #eb7330;
 }
 
-.sidebar-link:hover .icon[name="logo-react"] {
+.sidebar-link:hover .icon[name="logo-react"],
+.sidebar-link:active .icon[name="logo-react"] {
     color: #01d6f7;
 }
 
-.sidebar-link:hover .icon[name="server-outline"] {
+.sidebar-link:hover .icon[name="server-outline"],
+.sidebar-link:active .icon[name="server-outline"] {
     color: #006ec0;
 }
 

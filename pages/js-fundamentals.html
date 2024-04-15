@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Software dev journal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Software development bootcamp journal">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+
+<header class="header">
+    <div class="flex align-center">
+        <div class="avatar-circle-item">DT</div>
+        <div class="user-name ml-2">Dima Tkach</div>
+    </div>
+    <div class="">
+        <div class="input-item-holder icon-inside-left">
+            <input type="text" class="input-item" placeholder="Search">
+            <ion-icon class="icon" name="search-outline"></ion-icon>
+        </div>        
+    </div>
+</header>
+
+<main class="main">
+    <aside class="sidebar">
+        <div class="sidebar-content">
+            <a href="/" class="sidebar-link" href="#">
+                <ion-icon class="icon" name="home-outline"></ion-icon>
+                <span>Home page</span>
+            </a>
+            <div class="sidebar-title mt-3">Course cover</div>
+            <nav>
+                <a href="../pages/js-fundamentals.html" class="sidebar-link active" href="#">
+                    <ion-icon class="icon" name="logo-nodejs"></ion-icon>
+                    <span>JS Fundamentals</span>
+                </a>
+                <a href="../pages/html-markdown.html" class="sidebar-link" href="#">
+                    <ion-icon class="icon" name="logo-html5"></ion-icon>
+                    <span>HTML & CSS</span>
+                </a>
+                <a href="#" class="sidebar-link" href="#">
+                    <ion-icon class="icon" name="logo-nodejs"></ion-icon>
+                    <span>JS DOM interaction</span>
+                </a>
+                <a href="#" class="sidebar-link" href="#">
+                    <ion-icon class="icon" name="logo-nodejs"></ion-icon>
+                    <span>Advanced JavaScript</span>
+                </a>
+                <a href="#" class="sidebar-link" href="#">
+                    <ion-icon class="icon" name="logo-react"></ion-icon>
+                    <span>React and Back End</span>
+                </a>
+                <a href="#" class="sidebar-link" href="#">
+                    <ion-icon class="icon"name="logo-react"></ion-icon>
+                    <span>React CRUD Operations</span>
+                </a>
+                <a href="#" class="sidebar-link" href="#">
+                    <ion-icon class="icon" name="server-outline"></ion-icon>
+                    <span>SQL & Web Servers</span>
+                </a>
+            </nav>
+        </div>
+    </aside>
+    <div class="content container px-4 pt-4">
+        <h1 class="heading">JavaScript fundamentals</h1>
+        <p class="text-grey">JavaScript is a huge topic, with so many different features, styles, and techniques to learn, and so many APIs and tools built on top of it. This module focuses mostly on the essentials of the core language, plus some key surrounding topics — learning these topics will give you a solid basis to work from.</p>
+        <div class="row mt-5">
+            <div class="col-12">
+
+                <div class="card-item tech-card p-3">
+                    <ion-icon class="tech-card-bg" name="code-outline"></ion-icon>
+                    <a href="#">
+                        <ion-icon class="icon" name="logo-javascript"></ion-icon>
+                    </a>
+                    <h3 class="heading-sm mt-2">JavaScript Variables</h3>
+                    <p>Variables are used to store data in JavaScript. Variables are used to store reusable values. The values of the variables are allocated using the assignment operator(<b>“=”</b>).</p>
+                    <b>JavaScript Identifiers</b>
+                    <p>JavaScript variables must have unique names. These names are called Identifiers.</p>
+                    <h3 class="heading-sm mb-4">Basic rules to declare a variable in JavaScript:</h3>
+                    <ul>
+                        <li>
+                            These are case-sensitive
+                        </li>
+                        <li>
+                            Can only begin with a letter, underscore(“_”) or “$” symbol
+                        </li>
+                        <li>
+                            It can contain letters, numbers, underscore, or “$” symbol
+                        </li>
+                        <li>
+                            A variable name cannot be a reserved keyword.
+                        </li>
+                    </ul>
+
+                    <h3 class="heading-sm mb-4">Syntax:</h3>
+                    <pre>
+                        <code class="language-js">
+// Declaration using var
+var geek = "Hello Geek"
+
+// Declaration using let      
+let $ = "Welcome"                  
+
+// Declaration using const   
+const _example = "Gfg"       
+                        </code>
+                    </pre>
+                </div>
+
+                <div class="card-item tech-card p-3">
+                    <iframe src="https://onecompiler.com/javascript" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="100%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="../js/highlight/highlight.min.js"></script>
+<script src="../js/theme.js"></script>
+<script>hljs.highlightAll();</script>
+</body>
+</html>

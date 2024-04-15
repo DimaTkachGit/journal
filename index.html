@@ -5,6 +5,8 @@
     <title>Software dev journal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Software development bootcamp journal">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -31,11 +33,11 @@
             </a>
             <div class="sidebar-title mt-3">Course cover</div>
             <nav>
-                <a href="#" class="sidebar-link" href="#">
+                <a href="./pages/js-fundamentals.html" class="sidebar-link" href="#">
                     <ion-icon class="icon" name="logo-nodejs"></ion-icon>
                     <span>JS Fundamentals</span>
                 </a>
-                <a href="#" class="sidebar-link" href="#">
+                <a href="./pages/html-markdown.html" class="sidebar-link" href="#">
                     <ion-icon class="icon" name="logo-html5"></ion-icon>
                     <span>HTML & CSS</span>
                 </a>
@@ -68,13 +70,13 @@
         <div class="row mt-5">
             <div class="col-6">
                 <div class="card-item tech-card p-3">
-                    <a href="#">
+                    <a href="./pages/js-fundamentals.html">
                         <ion-icon class="icon" name="logo-javascript"></ion-icon>
                     </a>
                     <h3 class="heading-sm mt-2">JS Fundamentals</h3>
                     <p>JavaScript is a huge topic, with so many different features, styles, and techniques to learn, and so many APIs and tools built on top of it. This module focuses mostly on the essentials of the core language, plus some key surrounding topics — learning these topics will give you a solid basis to work from.</p>
                     <ion-icon class="tech-card-bg" name="code-outline"></ion-icon>
-                    <a href="#" class="link-arrow-item font-weight-semibold text-primary">
+                    <a href="./pages/js-fundamentals.html" class="link-arrow-item font-weight-semibold text-primary">
                         Learn more
                         <ion-icon class="ml-1" name="arrow-forward-outline"></ion-icon>
                     </a>
@@ -128,6 +130,11 @@
 
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="./js/highlight/highlight.min.js"></script>
 <script src="./js/theme.js"></script>
+<!-- <script>hljs.highlightAll();
+    document.querySelectorAll("code").forEach(function(element) {
+        element.innerHTML = element.innerHTML.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
+    });</script> -->
 </body>
 </html>

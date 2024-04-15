@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Software dev journal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Software development bootcamp journal">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+
+<header class="header">
+    <div class="flex align-center">
+        <div class="avatar-circle-item">DT</div>
+        <div class="user-name ml-2">Dima Tkach</div>
+    </div>
+    <div class="">
+        <div class="input-item-holder icon-inside-left">
+            <input type="text" class="input-item" placeholder="Search">
+            <ion-icon class="icon" name="search-outline"></ion-icon>
+        </div>        
+    </div>
+</header>
+
+<main class="main">
+    <aside class="sidebar">
+        <div class="sidebar-content">
+            <a href="/" class="sidebar-link" href="#">
+                <ion-icon class="icon" name="home-outline"></ion-icon>
+                <span>Home page</span>
+            </a>
+            <div class="sidebar-title mt-3">Course cover</div>
+            <nav>
+                <a href="../pages/js-fundamentals.html" class="sidebar-link active" href="#">
+                    <ion-icon class="icon" name="logo-nodejs"></ion-icon>
+                    <span>JS Fundamentals</span>
+                </a>
+                <a href="../pages/html-markdown.html" class="sidebar-link" href="#">
+                    <ion-icon class="icon" name="logo-html5"></ion-icon>
+                    <span>HTML & CSS</span>
+                </a>
+                <a href="#" class="sidebar-link" href="#">
+                    <ion-icon class="icon" name="logo-nodejs"></ion-icon>
+                    <span>JS DOM interaction</span>
+                </a>
+                <a href="#" class="sidebar-link" href="#">
+                    <ion-icon class="icon" name="logo-nodejs"></ion-icon>
+                    <span>Advanced JavaScript</span>
+                </a>
+                <a href="#" class="sidebar-link" href="#">
+                    <ion-icon class="icon" name="logo-react"></ion-icon>
+                    <span>React and Back End</span>
+                </a>
+                <a href="#" class="sidebar-link" href="#">
+                    <ion-icon class="icon"name="logo-react"></ion-icon>
+                    <span>React CRUD Operations</span>
+                </a>
+                <a href="#" class="sidebar-link" href="#">
+                    <ion-icon class="icon" name="server-outline"></ion-icon>
+                    <span>SQL & Web Servers</span>
+                </a>
+            </nav>
+        </div>
+    </aside>
+    <div class="content container px-4 pt-4">
+        <h1 class="heading">HTML fundamentals</h1>
+        <p class="text-grey">HTML (HyperText Markup Language) is the code that is used to structure a web page and its content. For example, content could be structured within a set of paragraphs, a list of bulleted points, or using images and data tables. As the title suggests, this article will give you a basic understanding of HTML and its functions.</p>
+        <div class="row mt-5">
+            <div class="col-12">
+
+                <div class="card-item tech-card p-3">
+                    <ion-icon class="tech-card-bg" name="code-outline"></ion-icon>
+                    <a href="#">
+                        <ion-icon class="icon" name="logo-html5"></ion-icon>
+                    </a>
+                    <h3 class="heading-sm mt-2">So what is HTML?</h3>
+                    <p>HTML is a markup language that defines the structure of your content. HTML consists of a series of elements, which you use to enclose, or wrap, different parts of the content to make it appear a certain way, or act a certain way. The enclosing tags can make a word or image hyperlink to somewhere else, can italicize words, can make the font bigger or smaller, and so on. For example, take the following line of content:
+                    </p>
+
+                <div class="card-item tech-card p-3">
+                    <iframe src="https://onecompiler.com/html" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="100%" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="../js/highlight/highlight.min.js"></script>
+<script src="../js/theme.js"></script>
+<script>hljs.highlightAll();</script>
+</body>
+</html>
